@@ -1,14 +1,14 @@
 import './App.css'
-import { List } from './components/List';
-import { WapperList } from './components/WrapperList';
+import { Button } from './components/Button';
+import { TextoActualizado } from './components/CompWidthProps';
 
 function App() {
 
   return (
     <>
-      <WapperList>
-        <List/>
-      </WapperList>
+      <h1>HOLA DESDE VITE</h1>
+      <Button/>
+      <TextoActualizado/>
     </>
   )
 }
